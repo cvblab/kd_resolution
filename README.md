@@ -38,7 +38,7 @@ Please, download and prepare the following dataset as indicated:
 
 2. Set the dataset in the corresponding folder, at `./local_data/datasets/SICAPv2/`.
 
-Se proposed setting is largely general, and **we encourage to apply it to any patch-level classification task**!
+The proposed setting is largely general, and **we encourage you to apply it to any patch-level classification task**!
 
 ## Inter-Resolution Knowledge Distillation
 
@@ -46,8 +46,8 @@ Se proposed setting is largely general, and **we encourage to apply it to any pa
 ```
 python main.py --epochs 20 --input_shape 512 --target_shape 512 --experiment 512_KD_0_FM_0_SR_0_AM_0
 ```
-2. Student model training at smaller resolutions (e.g. 2.5x) - Please, note that relative weight of FM and AT terms
-should be empirically fixed trough optimization in the validation set.
+2. Student model training at smaller resolutions (e.g. 2.5x) - Please, note that the relative weight of FM and AT terms
+should be empirically fixed through optimization in the validation set.
 ```
 python main.py --epochs 20 --input_shape 512 --target_shape 128 --experiment 128_KD_0_FM_01_SR_0_AM_10 --experiment_name_teacher 512_KD_0_FM_0_SR_0_AM_0 --alpha_fm 0.1 --alpha_La 10.0
 ```
