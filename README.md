@@ -6,7 +6,7 @@ resolutions** during inference, and using **knowledge distillation** to enhance 
 reduced  image resolutions. We propose to distill this information by incorporating **attention maps** during training,
 using *strictly positive gradients*, via the propsoed **AT+** term.
 
-You can find more details on the following [manuscript](https://ieeexplore.ieee.org/abstract/document/10289941).
+You can find more details in the following [manuscript](https://ieeexplore.ieee.org/abstract/document/10289941).
 
 ## Installation
 
@@ -66,4 +66,4 @@ If you find this repository useful, please consider citing this paper:
 
 ## License
 
-- **Code and Model Weights** are released under [Apache 2.0 license](LICENSE)
+- **Code and Model Weights** are released under [MIT License](LICENSE)
