@@ -59,11 +59,11 @@ If you find this repository useful, please consider citing this paper:
 @article{InterResDistillation2023,
   title={Attention to Detail: Inter-Resolution Knowledge Distillation},
   author={Rocío del Amor and Julio Silva-Rodriguez and Adrián Colomer and Valery Naranjo},
-  journal={European Conference on Signal Processing (EUSIPCO)},
+  journal={European Signal Processing Conference (EUSIPCO)},
   year={2023}
 }
 ```
 
 ## License
 
-- **Code and Model Weights** are released under [MIT License](LICENSE)
+- **Code** is released under [MIT License](LICENSE)
